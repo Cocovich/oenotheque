@@ -1,0 +1,42 @@
+build_settings:
+#    clone_depth: 1 # depth of 1 is a shallow clone, remove this line to clone entire repo
+    ignore:
+        - "public"
+    mysql:
+        host: "localhost"
+        user: "IPL"
+        pass: "lambin"
+
+setup:
+#    mysql:
+#        - "DROP DATABASE IF EXISTS Oenotheque;"
+#        - "CREATE DATABASE Oenotheque;"
+#        - "GRANT ALL PRIVILEGES ON Oenotheque.* TO IPL@'localhost' IDENTIFIED BY 'Oenotheque';"
+#        - "GRANT ALL PRIVILEGES ON Oenotheque.* TO IPL@'localhost' IDENTIFIED BY 'Oenotheque';"
+#    composer:
+#        action: "install"
+
+test:
+#    php_unit:
+#        config:
+#            - "PHPUnit-all.xml"
+#            - "PHPUnit-ubuntu-fix.xml"
+#        directory:
+#            - "tests/"
+#        run_from: "phpunit/"
+#        coverage: "tests/logs/coverage"
+#    php_mess_detector:
+#        allow_failures: true
+#    php_code_sniffer:
+#        standard: "PSR2"
+#    php_cpd:
+#        allow_failures: true
+#    grunt:
+#        task: "build"
+
+complete:
+    mysql:
+        host: "localhost"
+        user: "IPL"
+        pass: "lambin"
+#        - "DROP DATABASE IF EXISTS Oenotheque;"
