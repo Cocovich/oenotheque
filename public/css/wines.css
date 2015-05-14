@@ -1,0 +1,146 @@
+/* ------------ LISTE VINS --------------- */
+
+#options {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.vin-num {
+    font-size: 15px;
+    font-weight: bold;
+    padding-right: 5px;
+}
+
+/* MOSAIQUE */
+
+.thumbnail {
+    border: 1px solid #c5cabe;
+    height: 300px;
+}
+
+.thumbnail .caption {
+    padding: 0 5px;
+}
+
+.thumbnail .captionbuttons{
+    position: absolute;
+    bottom: 20px;
+    left: 35px;
+}
+
+.vin-image{
+    max-width: 180px;
+    min-height: 190px;
+    max-height: 210px;
+}
+
+/* LISTE */
+
+.vin-moyenne {
+    font-size: 0.8em;
+    color: darkgrey;
+    float: right;
+    margin-top: 5px;
+}
+
+.liens {
+    display: none;
+}
+
+li:hover > .liens {
+    display: inline;
+}
+
+.liens a {
+    padding-left: 10px;
+}
+
+.vin-edit-icon {
+    color: darkorange;
+}
+.vin-edit-icon:hover {
+    color: #b95d00;
+}
+.vin-remove-icon {
+    color: darkred;
+}
+.vin-remove-icon:hover {
+    color: #4f0000;
+}
+
+/* ----------- FICHE VIN --------------*/
+
+#fiche-vin {
+    width: 60%;
+    margin: 20px auto;
+    border: 3px lightgrey;
+    border-radius: 10px;
+}
+
+img.vin-image {
+    max-width: 180px;
+    max-height: 210px;
+}
+
+.vin-label {
+    font-weight: bold;
+}
+
+#vin-contenu .row div {
+    padding: 10px 20px;
+}
+
+#vin-liens {
+    float: right;
+    font-size: 20px;
+}
+
+#vin-liens a {
+    padding-left: 20px;
+}
+
+#vin-date {
+    text-align: right;
+    font-style: italic;
+    font-size: 0.85em;
+    color: darkgrey;
+}
+
+div#vin-notation {
+    text-align: center;
+    margin: 0 auto 5px;
+}
+
+div#vin-notation input {
+    width: 55px;
+    border: none;
+    box-shadow: none;
+}
+
+#add-comm-form{
+    width: 60%;
+    margin: auto;
+}
+
+#add-comm-form #inputContenu{
+    height: 100px;
+}
+
+#add-comm-form h3{
+    padding-left: 30px;
+}
+/* ----------- AJOUT VIN ------------ */
+
+ul.pager {
+    margin: 0;
+    float: left;
+    position: relative;
+    left: 12%;
+    top: 12px;
+}
+
+.form-group input[type=file] {
+    border: none;
+    box-shadow: none;
+    background-color: lightgrey;
+}

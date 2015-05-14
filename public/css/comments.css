@@ -1,0 +1,51 @@
+div#comments {
+    width: 60%;
+    margin: auto;
+}
+
+div#comments div#comments-header {
+    margin-bottom: 30px;
+}
+
+ul#list-comments li {
+    background-color: #ebebeb;
+}
+
+ul#list-comments li.list-group-item {
+    margin-bottom: 30px;
+}
+
+ul#list-comments li.list-group-item p.comment-wine-name {
+    text-align: right;
+    font-style: italic;
+    font-size: 1.3em;
+}
+
+ul#list-comments li.list-group-item p.comment-wine-name a {
+    color: #373737;
+}
+
+.comment-username {
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.comment-date {
+    font-size: 0.9em;
+}
+
+a.remove-comment {
+    float: right;
+    color: darkred;
+}
+
+p.comment-text {
+    text-align: justify;
+    margin: 10px 20px;
+}
+
+/* ---------- AJOUT COM ------------ */
+
+div#add-comm-form h3 {
+    margin: 10px 0 30px;
+}

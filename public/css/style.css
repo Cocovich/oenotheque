@@ -1,0 +1,126 @@
+﻿/*****************BODY******************************************/
+
+body{
+	/*background-color:#978c8c;*/
+    font-family: Arial, Helvetica, sans-serif;
+}
+/****************HEADER******************************************/
+header {
+    height: 150px;
+    background-color: #2f2929;
+    color: white;
+    vertical-align: middle;
+}
+
+header hgroup{
+    width: 50%;
+    padding: 1% 0;
+    margin: 0 auto;
+}
+
+nav{
+	width:52%;
+    margin: 0 auto;
+    padding: 0;
+}
+
+nav .btn{
+	background-color:#978c8c;
+	color:white;
+	border-color: silver;
+}
+nav .btn:hover{
+	background-color: silver;
+	font-weight: bold;
+	color:white;
+}
+/*******************CONTENT************************************/
+
+div#form {
+    width: 100%;
+    background-color: #ebebeb;
+}
+
+form#form-vin, form#form-login {
+    margin:0 auto;
+    padding:1% 2%;
+    background-color: lightgrey;
+}
+
+form#form-vin {
+    width: 60%;
+}
+
+form#form-login {
+    width: 50%;
+}
+
+.modal-dialog{
+    position: absolute;
+    left: 30%;
+    top: 40%;
+}
+
+div#div-filters {
+    text-align: right;
+}
+
+form#form-filters {
+    display: inline;
+    width: 100%;
+}
+
+form#form-filters input#inputSearch {
+    width: 180px;
+}
+
+form#form-filters select#selectOrder {
+    width: 130px;
+}
+
+form#form-filters select#selectLimit {
+    width: 80px;
+}
+
+.panel{
+	margin-top:1%;
+	width:60%;
+	margin : 0 auto;
+}
+
+.panel .panel-heading .panel-title a {
+    display: block;
+}
+
+.panel .list-group {
+    margin-bottom: 0;
+}
+
+
+/*******************FOOTER*************************************/
+footer {
+    padding: 10px 0;
+    color: white;
+    background-color:#2f2929;
+    text-align:center;
+}
+
+/*****************TEXT**************************************/
+header h1{
+    vertical-align:bottom;
+    color:white;
+    margin:1% 0px 0px 0px;
+}
+
+header h2{
+    vertical-align:bottom;
+    color:white;
+    margin:0px 0px;
+}
+
+
+footer p{
+    line-height:20px;
+    margin:0px;
+    padding:0px;
+}
